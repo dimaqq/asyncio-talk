@@ -1,88 +1,70 @@
-# Why Poland?
+# Asyncio
+## as a Western
 ## Dima Tisnek
-## Egnyte
 
 
 <img src="./egnyte.png" style="border: 0px"/>
 
 
 
-# Context
-* geek, engineer
-* Finland
-* here
-
-Note: Poles often asked me how come I chose to come here;
-Only Poles somehow
+# The Good
 
 
-# Alternatives
-* Silicon Valley
-* London
-* Zurich
+# Python3.6
+* this year
 
 
+# Python3.6
+* this year
+* async generators
 
-# R.E.A.S.O.N.
-* people
-* money
-* time
-
-
-
-# People
-* kombinowanie
-* activities
-* dating
-
-
-
-# Money
-* tax rate
-* costs
-* marginal
+<section>
+    <pre><code data-trim data-noescape>
+async def foo():
+    for i in range(3):
+        yield i
+        await asyncio.sleep(i)
+    </code></pre>
+</section>
 
 
-# Taxes
-## t / i
-### 19% + ZUS vs 30%
+# Python3.6
+* this year
+* async generators
+* async comprehensions
+
+<section>
+    <pre><code data-trim data-noescape>
+async def foo():
+    return [await f() for f in xx if await c()]
+</section>
 
 
-# Costs
-### 2000zł vs $2000
-
-
-## Marginal tax rate
-## ∂t / ∂i
-## 19% vs 45%
+# Demo time!
 
 
 
-# Time: commute
-## 10 minutes vs 1 hour
+# The Bad
 
 
-# Time after work
-## activities
+# The Bad
+* interactive
 
 
-
-# Reasons
-* Europe
-* nature
-* safety
-* food
+# The Bad
+* interactive
+* unit tests
 
 
-
-# Summary
-* people
-* money
-* time
+# The Bad
+* interactive
+* unit tests
+* mocks
 
 
 
-# Egnyte
-Poznan, Mostowa 11
-# dimaqq
-gmail, github, etc
+# The Ugly
+
+
+# The Ugly
+* Nothing
