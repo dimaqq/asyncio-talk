@@ -7,6 +7,24 @@
 
 
 
+# The Problem
+https://12factor.net/logs
+
+
+# Logs
+A twelve-factor app never concerns itself with routing or storage of its output stream.
+
+
+# Logs
+Each process writes its event stream, unbuffered, to stdout.
+* development — in terminal
+* production — aggregated
+
+
+# Demo time!
+
+
+
 # The Good
 
 
