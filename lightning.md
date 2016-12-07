@@ -21,6 +21,9 @@ Each process writes its event stream, unbuffered, to stdout.
 * production — aggregated
 
 
+<img src="./logah.png" style="border: 0px"/>
+
+
 # Demo time!
 
 
